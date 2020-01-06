@@ -1,0 +1,21 @@
+[2019-01-18 17:35:24 +0800] [2177] [INFO] Starting gunicorn 19.9.0
+[2019-01-18 17:35:24 +0800] [2177] [INFO] Listening at: http://127.0.0.1:8080 (2177)
+[2019-01-18 17:35:24 +0800] [2177] [INFO] Using worker: sync
+[2019-01-18 17:35:24 +0800] [2180] [INFO] Booting worker with pid: 2180
+[2019-01-18 17:35:24 +0800] [2181] [INFO] Booting worker with pid: 2181
+[2019-01-18 17:35:24 +0800] [2182] [INFO] Booting worker with pid: 2182
+[2019-01-18 17:35:24 +0800] [2183] [INFO] Booting worker with pid: 2183
+[2019-01-18 17:40:55 +0800] [2182] [INFO] Parent changed, shutting down: <Worker 2182>
+[2019-01-18 17:40:55 +0800] [2182] [INFO] Worker exiting (pid: 2182)
+[2019-01-18 17:40:55 +0800] [2180] [INFO] Parent changed, shutting down: <Worker 2180>
+[2019-01-18 17:40:55 +0800] [2180] [INFO] Worker exiting (pid: 2180)
+[2019-01-18 17:40:55 +0800] [2183] [INFO] Parent changed, shutting down: <Worker 2183>
+[2019-01-18 17:40:55 +0800] [2183] [INFO] Worker exiting (pid: 2183)
+[2019-01-18 17:40:55 +0800] [2181] [INFO] Parent changed, shutting down: <Worker 2181>
+[2019-01-18 17:40:55 +0800] [2181] [INFO] Worker exiting (pid: 2181)
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: No application module specified.
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: No application module specified.
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: No application module specified.

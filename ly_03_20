@@ -1,0 +1,12 @@
+import requests
+from lxml import etree
+
+url = "http://www.shundecity.com/a/fclj/2019/0320/221477.html"
+headers ={
+"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
+}
+res = requests.get(url = url,headers = headers).text
+print(res)
+data = {}
+selec = etree.Html(res)
+title = 
